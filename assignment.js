@@ -17,7 +17,7 @@ function kilometerToMeter(kmUnit) {
 
     var meterUnit = kilometerToMeter(120);
 
-console.log(meterUnit);
+// console.log(meterUnit);
 
 /*---------------END-------------------*/
 
@@ -49,7 +49,7 @@ function budgetCalculator(watch, phone, laptop) {
 
     var   totalToBePaid = budgetCalculator(13, 12, 11);
 
-console.log(totalToBePaid);
+// console.log(totalToBePaid);
 
 
             /*--------------END------------*/
@@ -88,7 +88,7 @@ function hotelCost(daysStayed) {
 
         var totalBillToBePaidBeforeCheckOut = hotelCost(28);
     
-console.log(totalBillToBePaidBeforeCheckOut);
+// console.log(totalBillToBePaidBeforeCheckOut);
 
 
             /*--------------END------------*/
@@ -123,7 +123,7 @@ function megaFriend(friendsList) {
 
         var longestNamedFriend = megaFriend(friendsList);
 
-console.log(longestNamedFriend);
+// console.log(longestNamedFriend);
 
 
             /*--------------END------------*/
