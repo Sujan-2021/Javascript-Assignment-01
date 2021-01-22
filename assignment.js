@@ -93,6 +93,8 @@ function hotelCost(daysStayed) {
 
             /*--------------END------------*/
 
+            
+
 
 
 /* -------------Assignment for megaFriend -----------------*/
