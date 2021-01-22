@@ -23,7 +23,7 @@ function kilometerToMeter(kmUnit) {
 
 
 
-/*---------------- Assignmet forbudgetCalculator-------------------*/
+/*---------------- Assignment for budgetCalculator-------------------*/
 
 
 function budgetCalculator(watch, phone, laptop) {
@@ -58,7 +58,7 @@ function budgetCalculator(watch, phone, laptop) {
 
 
 
-/*---------------- Assignmet for hotelCost -------------------*/
+/*---------------- Assignment for hotelCost -------------------*/
 
 function hotelCost(daysStayed) {
     
@@ -93,7 +93,7 @@ function hotelCost(daysStayed) {
 
             /*--------------END------------*/
 
-            
+
 
 
 
