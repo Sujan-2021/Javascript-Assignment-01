@@ -17,7 +17,7 @@ function kilometerToMeter(kmUnit) {
 
     var meterUnit = kilometerToMeter(120);
 
-//console.log(meterUnit);
+console.log(meterUnit);
 
 /*---------------END-------------------*/
 
@@ -35,17 +35,21 @@ function budgetCalculator(watch, phone, laptop) {
     var  totalPrice = watchPrice + phonePrice + laptopPrice;
 
     if (watch >= 0 && phone >= 0 && laptop >= 0) {
+        
         return totalPrice;
+
     }
 
     else {
+
         return "Quantity of Item can neither be Negative nor writable in string";
+
     }
 }
 
     var   totalToBePaid = budgetCalculator(13, 12, 11);
 
-//console.log(totalToBePaid);
+console.log(totalToBePaid);
 
 
             /*--------------END------------*/
@@ -58,7 +62,7 @@ function budgetCalculator(watch, phone, laptop) {
 
 function hotelCost(daysStayed) {
     
-    var bill = 0;
+        var bill = 0;
 
     if (daysStayed <= 10) {
         bill = daysStayed * 100;
@@ -82,9 +86,9 @@ function hotelCost(daysStayed) {
     return bill;
 }
 
-    var totalBillToBePaidBeforeCheckOut = hotelCost(28);
+        var totalBillToBePaidBeforeCheckOut = hotelCost(28);
     
-//console.log(totalBillToBePaidBeforeCheckOut);
+console.log(totalBillToBePaidBeforeCheckOut);
 
 
             /*--------------END------------*/
@@ -101,17 +105,17 @@ function megaFriend(friendsList) {
         
         var friendsName = friendsList[i].length;
         
-        if (friendsName == []) {
+    if (friendsName == []) {
          
             return "friendList is Empty";
         }
 
-        else if (friendsName > longestName.length) {
+    else if (friendsName > longestName.length) {
             longestName = friendsList[i];
         }
 
     }
-        return longestName;
+            return longestName;
 
 }
 
@@ -119,7 +123,7 @@ function megaFriend(friendsList) {
 
         var longestNamedFriend = megaFriend(friendsList);
 
-//console.log(longestNamedFriend);
+console.log(longestNamedFriend);
 
 
             /*--------------END------------*/
